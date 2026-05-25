@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 echo "Atualizando sistema..."
 sudo apt update && sudo apt upgrade -y
@@ -7,6 +8,12 @@ echo "Instalando pacotes básicos..."
 sudo apt install -y \
     git curl wget unzip \
     nmap net-tools
+
+echo "[+] Instalando Python..."
+sudo apt install -y \
+    python3 \
+    python3-pip \
+    python3-venv
 
 echo "Instalando Docker..."
 sudo apt install -y docker.io
