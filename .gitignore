@@ -216,6 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+<<<<<<< HEAD
 
 # Docker
 *.log
@@ -225,3 +226,5 @@ __marimo__/
 *.vmdk
 *.qcow2
 *.iso
+=======
+>>>>>>> 4fc37c447035966b5f02bf14c89bfd4476181a6f
